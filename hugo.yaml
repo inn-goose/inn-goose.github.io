@@ -1,4 +1,4 @@
-baseURL: https://blog.goose.sh/
+baseURL: https://goose.sh/
 languageCode: en-us
 title: Goose's Tech Blog
 theme: ["hugo-PaperMod"]
