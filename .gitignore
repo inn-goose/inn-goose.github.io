@@ -3,3 +3,5 @@
 
 # hugo
 .hugo_build.lock
+archetypes/
+public/
