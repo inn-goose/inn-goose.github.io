@@ -1,2 +1,5 @@
 # mac specifics
 .DS_Store
+
+# hugo
+.hugo_build.lock
