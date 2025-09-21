@@ -2,3 +2,7 @@ baseURL: https://blog.goose.sh/
 languageCode: en-us
 title: Goose's Tech Blog
 theme: ["hugo-PaperMod"]
+
+caches:
+  images:
+    dir: :cacheDir/images
