@@ -49,5 +49,4 @@ params:
       url: "https://linkedin.com/"
 
   ShowReadingTime: true
-  ShowShareButtons: true
   ShowToc: true
