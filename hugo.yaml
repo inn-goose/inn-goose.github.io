@@ -1,8 +1,19 @@
 baseURL: https://goose.sh/
 languageCode: en-us
-title: Goose's Tech Blog
+title: Goose in the Shell
 theme: ["hugo-PaperMod"]
 
 caches:
   images:
     dir: :cacheDir/images
+
+params:
+  # OpenGraph
+  description: Goose's Tech Blog on Microelectronics
+  images:
+    - "images/goose-in-the-shell-512.png"
+  # https://github.com/adityatelange/hugo-PaperMod/wiki/Features#enhanced-seo
+
+  # paperMod
+  defaultTheme: light
+  disableThemeToggle: true
