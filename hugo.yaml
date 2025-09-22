@@ -7,9 +7,30 @@ caches:
   images:
     dir: :cacheDir/images
 
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+menu:
+  main:
+    - identifier: projects
+      name: Projects
+      url: /projects/
+      weight: 10
+    - identifier: tools
+      name: Tools
+      url: /tools/
+      weight: 20
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 30
+
 params:
   # OpenGraph
-  description: Goose's Tech Blog on Microelectronics
+  description: Goose's Tech Blog about Microelectronics
   images:
     - "images/goose-in-the-shell-512.png"
   # https://github.com/adityatelange/hugo-PaperMod/wiki/Features#enhanced-seo
@@ -17,3 +38,16 @@ params:
   # paperMod
   defaultTheme: light
   disableThemeToggle: true
+
+  homeInfoParams:
+    Title: Goose's Tech Blog about Microelectronics
+    Content: I specialize in AI ASICs productionization, and in my spare time, I explore low-level microelectronics, debugging Arduino programs using an oscilloscope.
+  socialIcons:
+    - name: GitHub
+      url: "https://github.com/"
+    - name: LinkedIn
+      url: "https://linkedin.com/"
+
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowToc: true
