@@ -36,7 +36,7 @@ params:
   # OpenGraph
   description: Goose's Tech Blog about Microelectronics
   images:
-    - "images/goose-in-the-shell-512.png"
+    - "images/og/goose-in-the-shell.png"
   # https://github.com/adityatelange/hugo-PaperMod/wiki/Features#enhanced-seo
 
   # paperMod
