@@ -1,0 +1,88 @@
+baseURL: https://goose.sh
+languageCode: en
+title: Goose in the Shell
+theme: "blowfish"
+
+
+caches:
+  images:
+    dir: :cacheDir/images
+
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+
+taxonomies:
+  tag: tags
+
+menu:
+  main:
+    # - identifier: projects
+    #   name: Projects
+    #   url: /projects/
+    #   weight: 10
+    - identifier: blog
+      name: Blog
+      url: /blog/
+      weight: 20
+    - identifier: tools
+      name: Tools
+      url: /tools/
+      weight: 30
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 40
+
+params:
+  # OpenGraph
+  description: Goose's Tech Blog about Microelectronics
+  # static
+  images:
+    - "images/og/goose-in-the-shell.png"
+  # https://github.com/adityatelange/hugo-PaperMod/wiki/Features#enhanced-seo
+
+  copyright: (c) Goose, 2025
+
+  enableRobotsTXT: true
+
+  colorScheme: slate
+  enableSearch: false
+
+
+  author:
+    name: Goose
+    # assets
+    image: images/goose.png
+    headline: Microelectronics Hobbyist
+    bio: At home, I write programs for microcontrollers, while at work, I develop FW for AI accelerators. These two activities are closely related, and my hobby helps me gain a deeper understanding of HW and FW.
+    links:
+      - github: https://github.com/inn-goose
+
+  homepage:
+    layout: hero
+    homepageImage: images/city-day.png
+    # disableHeroImageFilter: true
+    showRecent: true
+    showSummary: true
+
+  footer:
+    showScrollToTop: false
+
+  mainSections: ["projects", "blog"]
+
+  list:
+    showHero: true
+    showSummary: true
+
+  article:
+    showDateOnlyInArticle: true
+    showAuthorBottom: true
+    # showHero: true
+    showPagination: false
+    showTaxonomies: true
+    showZenMode: true
