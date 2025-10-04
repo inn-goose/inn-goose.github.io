@@ -40,13 +40,13 @@ menu:
 
 params:
   # OpenGraph
-  description: Goose's Tech Blog about Microelectronics
+  description: "Goose in the Shell: Microelectronics Blog"
   # static
   images:
     - "images/og/goose-in-the-shell.png"
   # https://github.com/adityatelange/hugo-PaperMod/wiki/Features#enhanced-seo
 
-  copyright: (c) Goose, 2025
+  copyright: "© 2025 Ilia N"
 
   enableRobotsTXT: true
 
@@ -55,10 +55,10 @@ params:
 
 
   author:
-    name: Goose
+    name: Ilia
     # assets
     image: images/goose.png
-    headline: Microelectronics Hobbyist
+    headline: Microelectronics Enthusiast
     bio: At home, I write programs for microcontrollers, while at work, I develop FW for AI accelerators. These two activities are closely related, and my hobby helps me gain a deeper understanding of HW and FW.
     links:
       - github: https://github.com/inn-goose
