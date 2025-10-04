@@ -58,8 +58,8 @@ params:
     name: Ilia
     # assets
     image: images/goose.png
-    headline: Microelectronics Enthusiast
-    bio: At home, I write programs for microcontrollers, while at work, I develop FW for AI accelerators. These two activities are closely related, and my hobby helps me gain a deeper understanding of HW and FW.
+    headline: "Microelectronics Enthusiast"
+    bio: "Microelectronics Enthusiast | SWE at Meta working on AI ASICs FW"
     links:
       - github: https://github.com/inn-goose
 
@@ -82,7 +82,6 @@ params:
   article:
     showDateOnlyInArticle: true
     showAuthorBottom: true
-    # showHero: true
     showPagination: false
     showTaxonomies: true
     showZenMode: true
