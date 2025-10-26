@@ -59,7 +59,7 @@ params:
     # assets
     image: images/goose.png
     headline: "Microelectronics Enthusiast"
-    bio: "Microelectronics Enthusiast | SWE at Meta working on AI ASICs FW"
+    bio: "Microelectronics Enthusiast | SWE at Meta working on AI ASICs"
     links:
       - github: https://github.com/inn-goose
 
