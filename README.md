@@ -19,7 +19,13 @@ http://localhost:1313/
 ### Update Content
 
 ```bash
-git submodule add https://github.com/inn-goose/content.git ./content
+cd ./content
+
+git checkout main
+
+git pull
+
+cd -
 ```
 
 
