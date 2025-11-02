@@ -1,4 +1,4 @@
-# goose.sh
+# [goose.sh](https://goose.sh)
 
 ## hugo
 

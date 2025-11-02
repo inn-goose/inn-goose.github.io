@@ -61,6 +61,7 @@ params:
   # visual
   colorScheme: slate
   disableImageZoom: true
+  # defaultAppearance: "dark"
 
   # SEO
   enableRobotsTXT: false  # custom robots.txt
@@ -79,6 +80,9 @@ params:
     homepageImage: images/city-day.png
     # disableHeroImageFilter: true
     showRecent: true
+    showRecentItems: 5
+    showMoreLink: true
+    showMoreLinkDest: blog
     showSummary: true
 
   footer:
