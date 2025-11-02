@@ -19,6 +19,7 @@ outputs:
 taxonomies:
   tag: tags
 
+
 menu:
   main:
     # - identifier: projects
@@ -38,22 +39,9 @@ menu:
       url: /about/
       weight: 40
 
+
 params:
-  # OpenGraph
-  description: "Goose in the Shell: Microelectronics Blog"
-  # static
-  images:
-    - "images/og/goose-in-the-shell.png"
-  # https://github.com/adityatelange/hugo-PaperMod/wiki/Features#enhanced-seo
-
-  copyright: "© 2025 Ilia N"
-
-  enableRobotsTXT: true
-
-  colorScheme: slate
-  enableSearch: false
-
-
+  # author
   author:
     name: Ilia
     # assets
@@ -62,6 +50,29 @@ params:
     bio: "Microelectronics Enthusiast | SWE at Meta working on AI ASICs"
     links:
       - github: https://github.com/inn-goose
+
+  copyright: "© 2025 Ilia"
+
+  # OpenGraph
+  description: "Goose in the Shell: Microelectronics Blog"
+  images:
+    - "images/og/goose-in-the-shell.png"
+
+  # visual
+  colorScheme: slate
+  disableImageZoom: true
+
+  # SEO
+  enableRobotsTXT: false  # custom robots.txt
+  # https://blowfish.page/docs/firebase-views/
+  firebase:
+    apiKey: "AIzaSyAAfruwKBDybySo6w1r_kk6x73yzEqgQRM"
+    authDomain: "goose-sh.firebaseapp.com"
+    projectId: "goose-sh"
+    storageBucket: "goose-sh.firebasestorage.app"
+    messagingSenderId: "930119747861"
+    appId: "1:930119747861:web:683bbbdcd436a6dc74011c"
+    measurementId: "G-4V51YVFN4Y"
 
   homepage:
     layout: hero
@@ -73,15 +84,21 @@ params:
   footer:
     showScrollToTop: false
 
+  enableSearch: false
+
   mainSections: ["projects", "blog"]
 
   list:
     showHero: true
     showSummary: true
 
+  # on every article
   article:
     showDateOnlyInArticle: true
     showAuthorBottom: true
     showPagination: false
     showTaxonomies: true
     showZenMode: true
+    # likes and comments
+    showLikes: true
+    showViews: true
