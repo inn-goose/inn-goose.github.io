@@ -4,6 +4,12 @@ title: Goose in the Shell
 theme: "blowfish"
 
 
+# SEO
+services:
+  googleAnalytics:
+    id: "G-4V51YVFN4Y"
+
+
 caches:
   images:
     dir: :cacheDir/images
