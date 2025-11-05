@@ -5,6 +5,7 @@ theme: "blowfish"
 
 
 # SEO
+# https://discourse.gohugo.io/t/config-is-services-googleanalytics-id-an-alias-for-googleanalytics/39469/2
 services:
   googleAnalytics:
     id: "G-4V51YVFN4Y"
