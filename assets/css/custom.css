@@ -1,0 +1,28 @@
+/* light theme */
+
+html:not(.dark) .icon.circle-info {
+    color: #1818ff;
+}
+
+html:not(.dark) .icon.triangle-exclamation {
+    color: orange;
+}
+
+html:not(.dark) .icon.fire {
+    color: red;
+}
+
+
+/* dark theme */
+
+html.dark .icon.circle-info {
+    color: #7dcffb;
+}
+
+html.dark .icon.triangle-exclamation {
+    color: #ffd890;
+}
+
+html.dark .icon.fire {
+    color: #ff5d5d;
+}

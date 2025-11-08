@@ -69,6 +69,8 @@ params:
   colorScheme: slate
   disableImageZoom: true
   # defaultAppearance: "dark"
+  custom_css:
+    - "css/custom.css"
 
   # SEO
   enableRobotsTXT: false  # custom robots.txt
