@@ -1,28 +1,56 @@
-/* light theme */
+/* alert: circle-info (Info Alert) */
+html:not(.dark) .alert-card.circle-info {
+    background-color: #cecef4;
+    color: black;
+}
+
+html.dark .alert-card.circle-info {
+    background-color: #1f2a4e;
+    color: white;
+}
 
 html:not(.dark) .icon.circle-info {
-    color: #1818ff;
+    color: #0969da;
+}
+
+html.dark .icon.circle-info {
+    color: #4493f8;
+}
+
+/* alert: triangle-exclamation (Warning Alert) */
+html:not(.dark) .alert-card.triangle-exclamation {
+    background-color: #f5e2be;
+    color: black;
+}
+
+html.dark .alert-card.triangle-exclamation {
+    background-color: #5e4a16;
+    color: white;
 }
 
 html:not(.dark) .icon.triangle-exclamation {
-    color: orange;
-}
-
-html:not(.dark) .icon.fire {
-    color: red;
-}
-
-
-/* dark theme */
-
-html.dark .icon.circle-info {
-    color: #7dcffb;
+    color: #9a6700;
 }
 
 html.dark .icon.triangle-exclamation {
-    color: #ffd890;
+    color: #d29922;
+}
+
+/* alert: fire (Caution Alert) */
+html:not(.dark) .alert-card.fire {
+    background-color: #ffdbdb;
+    color: black;
+}
+
+html.dark .alert-card.fire {
+    background-color: #8b1d24;
+    color: white;
+}
+
+html:not(.dark) .icon.fire {
+    color: #d1242f;
 }
 
 html.dark .icon.fire {
-    color: #ff5d5d;
+    color: #f85149;
 }
