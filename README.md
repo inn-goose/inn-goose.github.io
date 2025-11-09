@@ -1,6 +1,18 @@
-# [goose.sh](https://goose.sh)
+# Website: [Goose in the Shell](https://goose.sh)
 
-## hugo
+This blog is statically generated using:
+* [Hugo](https://gohugo.io) static site generator
+* [Blowfish](https://blowfish.page) theme for Hugo
+
+Hosted on:
+* [GitHub Pages](https://pages.github.com)
+* [goose.sh](https://goose.sh)
+
+The content of this site is stored in a separate repository:
+* [Content](https://github.com/inn-goose/content) for `inn-goose.github.io`
+
+
+## Hugo
 
 ### Local Test
 
