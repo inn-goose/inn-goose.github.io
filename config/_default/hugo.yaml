@@ -29,10 +29,10 @@ taxonomies:
 
 menu:
   main:
-    # - identifier: projects
-    #   name: Projects
-    #   url: /projects/
-    #   weight: 10
+    - identifier: projects
+      name: Projects
+      url: /tags/project/
+      weight: 10
     - identifier: blog
       name: Blog
       url: /blog/
