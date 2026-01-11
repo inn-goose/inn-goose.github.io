@@ -59,7 +59,7 @@ params:
       - github: https://github.com/inn-goose
       - reddit: https://www.reddit.com/user/inn-goose/
 
-  copyright: "© 2025 Ilia"
+  copyright: "© 2025-2026 Ilia"
 
   # OpenGraph
   description: "Goose in the Shell: Microelectronics Blog"
