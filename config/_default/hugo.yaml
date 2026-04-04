@@ -1,4 +1,5 @@
 baseURL: https://goose.sh
+enableRobotsTXT: true
 languageCode: en
 title: Goose in the Shell
 theme: "blowfish"
@@ -74,7 +75,6 @@ params:
     - "css/custom.css"
 
   # SEO
-  enableRobotsTXT: false  # custom robots.txt
   # https://blowfish.page/docs/firebase-views/
   firebase:
     apiKey: "AIzaSyAAfruwKBDybySo6w1r_kk6x73yzEqgQRM"
