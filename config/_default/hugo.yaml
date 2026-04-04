@@ -65,7 +65,7 @@ params:
   # OpenGraph
   description: "Goose in the Shell: Microelectronics Blog"
   images:
-    - "images/og/goose-in-the-shell.png"
+    - "images/og/goose-in-the-shell.jpg"
 
   # visual
   colorScheme: slate
