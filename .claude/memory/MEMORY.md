@@ -1,0 +1,2 @@
+- [Blowfish upgrade](project_blowfish_upgrade.md) — blocked on double-paren links in content submodule
+- [Improvements progress](project_improvements_progress.md) — tracks CLAUDE.md improvement items done/remaining
