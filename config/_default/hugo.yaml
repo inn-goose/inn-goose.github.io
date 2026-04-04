@@ -83,7 +83,6 @@ params:
     storageBucket: "goose-sh.firebasestorage.app"
     messagingSenderId: "930119747861"
     appId: "1:930119747861:web:683bbbdcd436a6dc74011c"
-    measurementId: "G-4V51YVFN4Y"
 
   homepage:
     layout: hero
