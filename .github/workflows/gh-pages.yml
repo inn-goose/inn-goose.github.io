@@ -22,12 +22,11 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      DART_SASS_VERSION: 1.92.1
       HUGO_VERSION: 0.150.0
     steps:
 
       - name: Checkout
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
         with:
           submodules: recursive
           fetch-depth: 0
@@ -36,14 +35,15 @@ jobs:
         id: pages
         uses: actions/configure-pages@v5
 
-      - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v2
-        with:
-          hugo-version: "latest"
+      - name: Install Hugo
+        run: |
+          wget -O ${{ runner.temp }}/hugo.deb \
+            https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.deb
+          sudo dpkg -i ${{ runner.temp }}/hugo.deb
 
       - name: Cache restore
         id: cache-restore
-        uses: actions/cache/restore@v4
+        uses: actions/cache/restore@v5
         with:
           path: ${{ runner.temp }}/hugo_cache
           key: hugo-${{ github.run_id }}
@@ -51,11 +51,14 @@ jobs:
             hugo-
 
       - name: Build
-        run: hugo --minify
+        run: |
+          hugo --minify --gc \
+            --cacheDir "${{ runner.temp }}/hugo_cache" \
+            --baseURL "${{ steps.pages.outputs.base_url }}/"
 
       - name: Cache save
         id: cache-save
-        uses: actions/cache/save@v4
+        uses: actions/cache/save@v5
         with:
           path: ${{ runner.temp }}/hugo_cache
           key: ${{ steps.cache-restore.outputs.cache-primary-key }}
