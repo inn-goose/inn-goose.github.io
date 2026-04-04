@@ -52,3 +52,23 @@ git pull
 
 cd -
 ```
+
+
+## Firebase
+
+Firestore is used by Blowfish for page view and like counts.
+Rules are in `firebase/firestore.rules`.
+
+### Setup
+
+```bash
+curl -sL https://firebase.tools | bash
+
+firebase login
+```
+
+### Deploy Firestore Rules
+
+```bash
+cd firebase && firebase deploy --only firestore:rules && cd -
+```
