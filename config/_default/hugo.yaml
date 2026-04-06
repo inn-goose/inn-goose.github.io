@@ -99,7 +99,7 @@ params:
 
   enableSearch: false
 
-  mainSections: ["projects", "blog"]
+  mainSections: ["blog"]
 
   list:
     showHero: true
